@@ -2,9 +2,26 @@
 
 commit history : 커밋 메시지 비슷한거 같음 언젠가 이버전의 파일을 볼때 요약정도 적으면 된다.
 
-readme.md : 프로젝트 입장시 가장 상단에 포함되는 파일 
+readme.md : 프로젝트 입장시 가장 상단에 포함되는 파일 / 설명 정도 ?
 
-commit :
+working directory (작업폴더)  : 작업중인폴더 왜중요하냐 ? 저장(일단 저장이라는용어사용) 할때 어떤 폴더를 저장할지 고르는 과정이필요함)
 
-push
+Staging Area : 저장하려고 고른파일이다. add 명령어 통해서 고름 
 
+commit : 현상태를 스넵샷을 찍어 현재버전을 *로컬저장소(Local repository)에 저장을한다 
+
+push : commit 한 파일을   *원격저장소(remote Repository)에 저장을한다 
+
+pull : remot reposiotry 의 데이터를 가져오고 작업중인 로컬 브랜치와 merage 하는 단계 (fetch + merge)
+
+fetch : local repository 에는없는데 remote 에는 있는 데이터를 가져옴 (업데이트)
+
+merge(병합) : 작업중인 branch 에 합칠 commit 을 지정해 병합한다
+
+branch : 큰 버전이라고생각하면됨 
+
+master branch : 메인이 되는버전의 갈래 (보통 어느 기능을 추가할때 새로운 branch 를 만들어 개발하고 완성하면 master branch 에 병합한다고함)
+
+Local repository(로컬 저장소) : 컴퓨터 상의 로컬 저장소
+
+remote Repository(원격저장소) : 네트워크상의 저장소

@@ -18,5 +18,5 @@ git committ -m"커밋메시지"
 git push
 
 풀
-git pull pulltest
+git pull
 

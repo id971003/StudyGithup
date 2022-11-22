@@ -6,10 +6,10 @@
 
 ## 계획
 
-### 1. 용어   
-### 2. 사용   
->#### 2.1 깃허브 데스크탑 이용   
+### 1. word   
+### 2. use   
+>#### 2.1 githup desktop   
 >#### 2.2 gitbash   
->#### 2.3 습관(팁)   
->#### 2.4 readme꾸미기   
->#### 2.5 커밋메시지
+>#### 2.3 habit(tip)
+>#### 2.4 readmedecorate
+>#### 2.5 Commitmessage

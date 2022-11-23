@@ -12,7 +12,7 @@ add
 git add "FilePath"
 
 커밋
-git committ -m"커밋메시지"
+git committ -m "커밋메시지"
 
 푸쉬
 git push

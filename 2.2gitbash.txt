@@ -35,9 +35,10 @@ git commit --amend
 강제 푸쉬
 git push -f
 
-이전 커밋 돌아가기 이전 커밋 정보 다지우면서
+이전 커밋 돌아가기 이전 커밋 정보 다지우면서 
 git reset -hard "헤시값"
 
 로그보기
 git log
 
+커밋메시지 테스트

@@ -1,5 +1,4 @@
-깃 클론만들기
-cmd > [git clone "path"]
 
 
+pull request (pr) :남의 프로젝트에 풀 요청하는거
 

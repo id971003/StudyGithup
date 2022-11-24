@@ -1,0 +1,5 @@
+깃 클론만들기
+cmd > [git clone "path"]
+
+
+

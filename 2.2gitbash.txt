@@ -20,3 +20,9 @@ git push
 풀
 git pull
 
+상태보기
+git status
+
+add 시킨 거 다시 빼기
+git reset
+

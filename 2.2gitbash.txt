@@ -26,3 +26,8 @@ git status
 add 시킨 거 다시 빼기
 git reset
 
+다시 로컬리포지토리로 돌리기
+git checkout -- "filename"
+
+커밋메시지 수정
+git commit --amend

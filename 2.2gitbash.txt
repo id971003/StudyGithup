@@ -32,6 +32,9 @@ git checkout -- "filename"
 커밋메시지 수정
 git commit --amend
 
+유닉스 빠져나오기
+esc > :qw!
+
 강제 푸쉬
 git push -f
 
@@ -40,5 +43,3 @@ git reset -hard "헤시값"
 
 로그보기
 git log
-
-커밋메시지 테스트

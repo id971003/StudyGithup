@@ -43,3 +43,12 @@ git reset -hard "헤시값"
 
 로그보기
 git log
+
+브랜치 status 종류 이름 가져옴
+git bransh
+
+브랜치만들기
+git branch "name"
+
+브랜치이동
+git checkout "name"

@@ -52,3 +52,9 @@ git branch "name"
 
 브랜치이동
 git checkout "name"
+
+브랜치 없애기
+git branch -d "name"
+
+브랜치 합치기
+합칠 곳으로 가서  git marge "name"

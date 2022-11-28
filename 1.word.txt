@@ -22,26 +22,15 @@ pull : remot reposiotry 의 데이터를 가져오고 작업중인 로컬 브랜
 
 fetch : local repository 에는없는데 remote 에는 있는 데이터를 가져옴 (업데이트)
 
-merge(병합) : 여러 branch 를 합친다고생각함
+merge(병합) : 작업중인  충돌났을때나 다를때 하나로 합치는과정
 
 branch : 큰 버전이라고생각하면됨 
 
-master branch : 메인이 되는버전의 갈래 [배포버전](보통 어느 기능을 추가할때 새로운 branch 를 만들어 개발하고 완성하면 master branch 에 병합한다고함)
-	1. 배포버전
-	2. 안정화 되야함
-	3. 병렬식 개발
-	4. 통합브랜치
-
-Develop Branch : 개발중인 브랜치
-
-Bug Fix Branch : 버그 고치는중
-
-토픽 브랜치 : master 말고 나머지 
+master branch : 메인이 되는버전의 갈래 (보통 어느 기능을 추가할때 새로운 branch 를 만들어 개발하고 완성하면 master branch 에 병합한다고함)
 
 
 
-
-
+ㅡㅡㅡㅡㅡㅡㅡ
 
 
 

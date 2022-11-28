@@ -13,3 +13,12 @@ committer : 커밋 할수있는사람 [프로젝트 주인정도]
 	GPL : 무료 라고보면됨 근디 2차 저작물은 공개해야함
 
 	BEERWARE : 만나면 술사수자
+
+
+main branch:  빌드 가능한 브런치[오류 없어야함]
+
+develop branch : 개발중인 브런치
+
+fix branch :  오류 수정중인 브런치
+
+

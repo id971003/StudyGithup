@@ -26,9 +26,11 @@ merge(병합) : 작업중인  충돌났을때나 다를때 하나로 합치는�
 
 branch : 큰 버전이라고생각하면됨 
 
-master branch : 메인이 되는버전의 갈래 (보통 어느 기능을 추가할때 새로운 branch 를 만들어 개발하고 완성하면 master branch 에 병합한다고함)
+main branch:  빌드 가능한 브런치[오류 없어야함] 메인이 되는버전의 갈래 (보통 어느 기능을 추가할때 새로운 branch 를 만들어 개발하고 완성하면 master branch 에 병합한다고함)
 
+develop branch : 개발중인 브런치
 
+fix branch :  오류 수정중인 브런치
 
 ㅡㅡㅡㅡㅡㅡㅡ
 

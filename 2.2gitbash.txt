@@ -59,4 +59,22 @@ git branch -d "name"
 브랜치 합치기
 합칠 곳으로 가서  git marge "name"
 
+원격저장소확인
+git remote
+
+특정 저장소확인
+git remote show "name"
+
+다른 원격저장소 추가
+git remote add "name" "path"
+
+전체 원격저장소 확인
+git remote -v
+
+원격저장소 이름바꾸기
+git remote rename "beforename" "aftername"
+
+원격저장소 제거
+git remote rm "name"
+
 

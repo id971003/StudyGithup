@@ -32,7 +32,6 @@ develop branch : 개발중인 브런치
 
 fix branch :  오류 수정중인 브런치
 
-ㅡㅡㅡㅡㅡㅡㅡ
 
 
 

@@ -60,3 +60,4 @@ git branch -d "name"
 합칠 곳으로 가서  git marge "name"
 
 branchtest3
+

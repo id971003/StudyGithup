@@ -57,7 +57,7 @@ git checkout "name"
 git branch -d "name"
 
 브랜치 합치기
-합칠 곳으로 가서  git marge "name"
+[A브런치]  git marge "name"     [A에 name 을 합침]
 
 원격저장소확인
 git remote

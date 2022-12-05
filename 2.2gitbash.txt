@@ -101,7 +101,10 @@ git config user.email "email"
 	%ar 언제
 	%s 메시지 
 	
-	
+아카이브 : 파일만 다운받기
+	아카이브 내보내기 : git archive --format=zip "Name" -o "Name".zip
+	상위파일아카이브 내보내기 : git archive --format=zip ../"Name" -o "Name".zip
+
 
 
 

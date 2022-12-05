@@ -4,77 +4,104 @@
 git config user.name "name"
 git config user.email "email"
 
+기본
+	로컬리포지토리생성
+	git clone "HttpPath"
 
-로컬리포지토리생성
-git clone "HttpPath"
+	add
+	git add "FilePath"
 
-add
-git add "FilePath"
+	커밋
+	git committ -m "커밋메시지"
 
-커밋
-git committ -m "커밋메시지"
+	푸쉬
+	git push
 
-푸쉬
-git push
+	풀
+	git pull
 
-풀
-git pull
+	상태보기
+	git status
 
-상태보기
-git status
+	add 시킨 거 다시 빼기
+	git reset
 
-add 시킨 거 다시 빼기
-git reset
+	다시 로컬리포지토리로 돌리기
+	git checkout -- "filename"
 
-다시 로컬리포지토리로 돌리기
-git checkout -- "filename"
+	커밋메시지 수정
+	git commit --amend
 
-커밋메시지 수정
-git commit --amend
+	유닉스 빠져나오기
+	esc > :qw!
 
-유닉스 빠져나오기
-esc > :qw!
+	강제 푸쉬
+	git push -f
 
-강제 푸쉬
-git push -f
+	이전 커밋 돌아가기 이전 커밋 정보 다지우면서 
+	git reset -hard "헤시값"
 
-이전 커밋 돌아가기 이전 커밋 정보 다지우면서 
-git reset -hard "헤시값"
 
-로그보기
-git log
+브랜치
+	브랜치 status 종류 이름 가져옴
+	git bransh
 
-브랜치 status 종류 이름 가져옴
-git bransh
+	브랜치만들기
+	git branch "name"
 
-브랜치만들기
-git branch "name"
+	브랜치이동
+	git checkout "name"
+	
+	브랜치 없애기
+	git branch -d "name"
 
-브랜치이동
-git checkout "name"
+	브랜치 합치기
+	[A브런치]  git marge "name"     [A에 name 을 합침]
 
-브랜치 없애기
-git branch -d "name"
+저장소
+	원격저장소확인
+	git remote
 
-브랜치 합치기
-[A브런치]  git marge "name"     [A에 name 을 합침]
+	특정 저장소확인
+	git remote show "name"
 
-원격저장소확인
-git remote
+	다른 원격저장소 추가
+	git remote add "name" "path"
 
-특정 저장소확인
-git remote show "name"
+	전체 원격저장소 확인
+	git remote -v
 
-다른 원격저장소 추가
-git remote add "name" "path"
+	원격저장소 이름바꾸기
+	git remote rename "beforename" "aftername"
+	
+	원격저장소 제거
+	git remote rm "name"
 
-전체 원격저장소 확인
-git remote -v
+로그 [앵간하면 깃허브에서 보자]
+	로그보기
+	git log
+	
+	얼마나 많이 라인이[줄] 추가 됬는지
+	git log --stat
+	
+	브랜치 그래프로 눈에쉽게보기
+	git log --graph
+	
+	커밋정보 구체적으로 출력
+	git log -p -n[n번째 커밋 3까지가능]
+	
+	커밋로그 한줄로 보기 [커밋메시지 정도만 확인가능]
+	git log --pretty=oneline 
+	
+	커밋로그 포메팅
+	git log --pretty=formt:"MM" 
+	ex)git log --pretty=format:"%h -> %an, %ar : %s" --graph
+	%h : 헤시값
+	%an :누가?
+	%ar 언제
+	%s 메시지 
+	
+	
 
-원격저장소 이름바꾸기
-git remote rename "beforename" "aftername"
-
-원격저장소 제거
-git remote rm "name"
 
 
